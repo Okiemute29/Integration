@@ -24,8 +24,8 @@ function addTokentoRequest() {
   if (accessToken && refreshToken) {
     return {
       headers: {
-        "Authorization": accessToken,
-        "refreshtoken": refreshToken
+        // "Authorization": accessToken,
+        // "refreshtoken": refreshToken
       }
     };
   }
